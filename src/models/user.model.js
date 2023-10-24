@@ -2,7 +2,7 @@
 import mongoose from 'mongoose'
 
 // definir el esquema de usuario
-const userSchema = mongoose.Schema({
+const userSchema = new mongoose.Schema({
     username:  {
         type: String,
         required: true,
@@ -18,6 +18,8 @@ const userSchema = mongoose.Schema({
         required: true,
         trim: true,
     }
+}, {
+    timestamps: true
 })
 
 
