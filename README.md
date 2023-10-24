@@ -15,7 +15,7 @@ To run this project in your local environment, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd mern-tasks
+   cd CRUD-NodeJS-mongoBD 
    ```
 
 3. Install server dependencies:
